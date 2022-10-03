@@ -37,13 +37,13 @@ const StyledContainer = styled(motion.div)`
     font-weight: 500;
   }
   > .advice-devider {
-    background-image: url('/src/assets/pattern-divider-mobile.svg');
+    background-image: url('/Advice-Generator-React/pattern-divider-mobile.svg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 100%;
     height: 1rem;
     @media (min-width: 420px) {
-      background-image: url('/src/assets/pattern-divider-desktop.svg');
+      background-image: url('/Advice-Generator-React/pattern-divider-desktop.svg');
     }
   }
   > .advice-button {
@@ -54,7 +54,7 @@ const StyledContainer = styled(motion.div)`
     height: 4rem;
     border-radius: 50%;
     background-color: ${props => {return props.theme.neonGreen}};
-    background-image: url('/src/assets/icon-dice.svg');
+    background-image: url('/Advice-Generator-React/icon-dice.svg');
     background-repeat: no-repeat;
     background-position: 50% 50%;
     cursor: pointer;
